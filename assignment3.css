@@ -1,1 +1,62 @@
 /*styles for assignment 3*/
+
+body {
+    background-image: url("./img/pitt.jpg");
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("./img/pitt.jpg");
+    opacity : 0.9;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+ul li {
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: expanded;
+    margin-right: 75px;
+    margin-left: 75px;
+	color: #ebe;
+	background-color: #transparent;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: expanded;
+    margin-right: 75px;
+    margin-left: 75px;
+	color: #dfd;
+	background-color: #transparent;
+}
+
+.title1 {
+	font-size: 36px;
+	font-weight: bold;
+	font-stretch: expanded;
+    margin-right: 75px;
+    margin-left: 75px;
+	color: #fff;
+	font-style: oblique;
+	text-align: center;
+}
+
+.title2 {
+	font-size: 26px;
+	font-weight: bold;
+	font-stretch: expanded;
+    margin-right: 75px;
+    margin-left: 75px;
+	color: #ede;
+	font-style: oblique;
+	text-align: center;
+}
+
+.title3 {
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: expanded;
+    margin-right: 75px;
+    margin-left: 75px;
+	color: #dfd;
+	font-style: oblique;
+	text-align: right;
+}
